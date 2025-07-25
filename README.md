@@ -83,37 +83,4 @@ Projects/
 └── tracker.py        # Main object tracking script
 ```
 
----
 
-## ✨ Author
-
-**Rushi Subhash Rathod**
-B.Tech CSE (AI), VIT Pune
-GitHub: [@your-username](https://github.com/your-username)
-
----
-
-## 📄 License
-
-This project is open-source under the [MIT License](LICENSE).
-
-````
-
----
-
-### ✅ To Create the README.md in VS Code Terminal:
-
-```bash
-echo > README.md
-code README.md
-````
-
-Then paste the above content, save, and commit:
-
-```bash
-git add README.md
-git commit -m "Added project README"
-git push
-```
-
-Would you like a matching `LICENSE` file for MIT as well?
