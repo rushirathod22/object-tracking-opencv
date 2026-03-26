@@ -1,9 +1,6 @@
-﻿# object-tracking-opencv
-Sure, Rushi! Here's the clean and complete `README.md` content **for only your `tracker.py` (Object Tracking using OpenCV)** project.
 
----
 
-## 📄 `README.md`
+
 
 ````markdown
 # 🎯 Object Tracking using OpenCV
