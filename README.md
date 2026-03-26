@@ -80,7 +80,7 @@ cv2.TrackerKCF_create(): Faster, but struggles with overlaps.
 cv2.TrackerCSRT_create(): More accurate, but slightly slower.
 ```
 
-###👨‍💻 Team & Contributing
+***👨‍💻 Team & Contributing***
 *Rushikesh Rathod – GitHub Profile*
 
 **Feel free to Fork this repo, create a feature branch, and submit a Pull Request!**
