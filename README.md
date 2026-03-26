@@ -1,82 +1,81 @@
+# ⚖️ LegalEase AI-G & 🎯 Object Tracking Hub
 
+🚀 **Hackathon Edition** | A multi-utility repository featuring AI-powered Legal Guidance and Real-time Computer Vision Tracking.
 
-```markdown
-# 🎯 Object Tracking using OpenCV
-
-This project demonstrates real-time object tracking from a webcam using OpenCV in Python. You can interactively select a region of interest (ROI), and the tracker will follow the object frame-by-frame using the MIL (Multiple Instance Learning) tracking algorithm.
-
----
-
-## 🧠 Features
-
-* ✅ **Real-time webcam tracking:** High-speed processing for smooth visual feedback.
-* ✅ **Interactive object selection:** Select any object manually using your mouse.
-* ✅ **On-screen Statistics:**
-    * **FPS (Frames Per Second):** Monitor performance in real-time.
-    * **Tracking Status:** Clear "Tracking" or "Lost" indicators.
-* ✅ **Simple Controls:** Press `ENTER` to start and `ESC` to exit instantly.
+![GitHub repo size](https://img.shields.io/github/repo-size/rushirathod22/LegalEase-AI-G-ai-Hackthon)
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 
 ---
 
-## 📦 Requirements
+## 📌 Project 1: LegalEase AI-G (AI Assistant)
 
-Ensure you have Python installed, then install the necessary OpenCV library:
+An **AI-powered legal platform** designed to simplify access to legal knowledge using Natural Language Processing.
 
-```bash
-pip install opencv-contrib-python
-```
+### ✨ AI Features
+* 🧠 **Legal Q&A:** Get simplified answers to complex legal questions.
+* 📄 **Smart Drafting:** Generate agreements and contracts instantly.
+* 🌍 **Plain English:** Translates "Legalese" into understandable summaries.
+* ⚠️ *Disclaimer: For educational purposes only; not professional legal advice.*
 
----
-
-## 🚀 How to Run
-
-1.  **Launch the script:**
-    ```bash
-    python tracker.py
-    ```
-2.  **Select Object:** When the webcam window opens, click and drag to draw a box around the object you want to track.
-3.  **Confirm:** Press `ENTER` or `SPACE` to lock the target.
-4.  **Exit:** Press `ESC` to stop tracking and close the window.
+### 🛠 Tech Stack
+* **Frontend:** React / Next.js, Tailwind CSS
+* **Backend:** Node.js / Express
+* **AI:** OpenAI API / LLM Integration
 
 ---
 
-## 🔧 Tracker Configuration
+## 📌 Project 2: OpenCV Object Tracking
 
-The project currently utilizes the **MIL tracker**:
-
-```python
-tracker = cv2.TrackerMIL_create()
-```
-
-If you need different performance characteristics, you can swap it for:
-
-| Tracker | Best For... |
-| :--- | :--- |
-| **CSRT** | High accuracy (but slower) |
-| **KCF** | High speed (but struggles with overlaps) |
-| **MOSSE** | Extreme speed (purely for simple shapes) |
+A high-performance Python tool for real-time object tracking from a webcam using the **MIL (Multiple Instance Learning)** algorithm.
 
 
 
----
+### 🧠 Tracking Features
+* ✅ **Real-time Processing:** Smooth visual feedback from your webcam.
+* ✅ **Interactive Selection:** Manually select any Object of Interest (ROI) with your mouse.
+* ✅ **Live HUD:** On-screen FPS counter and "Tracking/Lost" status indicators.
+* ✅ **Simple Controls:** `ENTER` to lock target, `ESC` to exit instantly.
 
-## 📸 Console Output
+### 🚀 How to Run (Tracking)
+1. **Install Requirements:**
+   ```bash
+   pip install opencv-contrib-python
+   Launch Script:
 
-```text
-🟩 Select object to track and press ENTER or SPACE
-✅ Tracking started... Press ESC to exit
-🛑 Tracking stopped by user.
-```
+Bash
+python tracker.py
+Controls:
 
----
+Click & Drag: Draw a box around the object.
 
-## 📁 File Structure
+ENTER / SPACE: Confirm selection.
 
-```text
-Projects/
-└── tracker.py        # Main object tracking script
-└── README.md         # Project documentation
-```
-```
+ESC: Close the application.
 
-**Would you like me to generate a `requirements.txt` file for you as well so others can install everything with one command?**
+📂 File Structure
+Plaintext
+LegalEase-AI-G-ai-Hackthon/
+├── frontend/         # Next.js UI (LegalEase)
+├── backend/          # Node.js API & AI Logic
+├── tracking_tool/    # Python Object Tracker
+│   └── tracker.py    # Main CV Script
+├── README.md         # Project Documentation
+└── LICENSE           # MIT License
+⚙️ Configuration & Environment
+Legal Assistant (.env)
+Create a file in the /backend folder:
+
+Plaintext
+AI_API_KEY=your_openai_api_key_here
+PORT=5000
+Tracker Options
+You can swap the tracker in tracker.py for different performance:
+
+cv2.TrackerKCF_create(): Faster, but struggles with overlaps.
+
+cv2.TrackerCSRT_create(): More accurate, but slightly slower.
+
+👨‍💻 Team & Contributing
+Rushikesh Rathod – GitHub Profile
+
+Feel free to Fork this repo, create a feature branch, and submit a Pull Request!
