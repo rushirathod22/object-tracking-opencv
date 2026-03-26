@@ -2,7 +2,7 @@
 
 🚀 **Hackathon Edition** | A multi-utility repository featuring AI-powered Legal Guidance and Real-time Computer Vision Tracking.
 
-![GitHub repo size](https://img.shields.io/github/repo-size/rushirathod22/LegalEase-AI-G-ai-Hackthon)
+![GitHub repo size](https://img.shields.io/github/repo-size/rushirathod22/object-tracking-opencv)
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 
 ---
@@ -41,9 +41,11 @@ A high-performance Python tool for real-time object tracking from a webcam using
    ```bash
    pip install opencv-contrib-python
    Launch Script:
-
+```
 Bash
 python tracker.py
+```
+```
 Controls:
 
 Click & Drag: Draw a box around the object.
@@ -51,6 +53,8 @@ Click & Drag: Draw a box around the object.
 ENTER / SPACE: Confirm selection.
 
 ESC: Close the application.
+```
+```
 
 📂 File Structure
 Plaintext
@@ -61,21 +65,22 @@ LegalEase-AI-G-ai-Hackthon/
 │   └── tracker.py    # Main CV Script
 ├── README.md         # Project Documentation
 └── LICENSE           # MIT License
+```
+```
 ⚙️ Configuration & Environment
 Legal Assistant (.env)
 Create a file in the /backend folder:
-
-Plaintext
-AI_API_KEY=your_openai_api_key_here
-PORT=5000
+```
+```
 Tracker Options
 You can swap the tracker in tracker.py for different performance:
 
 cv2.TrackerKCF_create(): Faster, but struggles with overlaps.
 
 cv2.TrackerCSRT_create(): More accurate, but slightly slower.
+```
 
-👨‍💻 Team & Contributing
-Rushikesh Rathod – GitHub Profile
+#👨‍💻 Team & Contributing
+*Rushikesh Rathod – GitHub Profile*
 
-Feel free to Fork this repo, create a feature branch, and submit a Pull Request!
+**Feel free to Fork this repo, create a feature branch, and submit a Pull Request!**
