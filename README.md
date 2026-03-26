@@ -8,7 +8,7 @@
 This project demonstrates real-time object tracking from a webcam using OpenCV in Python. You can interactively select a region of interest (ROI), and the tracker will follow the object frame-by-frame using the MIL tracking algorithm.
 ````
 ```
----
+
 ## 🧠 Features
 
 - ✅ Real-time webcam tracking
@@ -19,7 +19,8 @@ This project demonstrates real-time object tracking from a webcam using OpenCV i
   - "Tracking" or "Lost Tracking" messages
 - ✅ ESC key to stop tracking and exit
 
----
+
+```
 ```
 
 ## 📦 Requirements
@@ -31,14 +32,14 @@ Install dependencies using:
 
 ```bash
 pip install opencv-python
-````
-
----
+```
+```
 
 ## 🚀 How to Run
 
 ```bash
 python tracker.py
+```
 ```
 
 1. A webcam window will open.
@@ -46,7 +47,8 @@ python tracker.py
 3. Press `ENTER` or `SPACE` to begin tracking.
 4. Press `ESC` to stop and close the window.
 
----
+```
+```
 
 ## 🔧 Tracker Used
 
@@ -54,6 +56,7 @@ The project uses OpenCV's **MIL tracker**:
 
 ```python
 tracker = cv2.TrackerMIL_create()
+```
 ```
 
 You can easily switch to other trackers like:
@@ -63,6 +66,7 @@ You can easily switch to other trackers like:
 * `cv2.TrackerMOSSE_create()`
 
 ---
+```
 
 ## 📸 Sample Output
 
