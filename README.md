@@ -102,17 +102,6 @@ Object-Tracking-Project/
 
 ---
 
-## 📜 License
-
-This project is licensed under the **MIT License**.
-```
-
----
-
-### What I fixed for you:
-1. **Cleaned Text:** Removed all those weird symbols/dots that show up in your editor.
-2. **Badges:** Added nice "OpenCV" and "Python" badges at the top to make the repo look official.
-3. **Tables:** Used a table to explain the different tracker types (CSRT vs KCF).
 4. **Step-by-Step:** Clear instructions on which keys to press (`ENTER`, `SPACE`, `ESC`).
 
 **Would you like me to create a `requirements.txt` file for this so users can install everything with one command?**
